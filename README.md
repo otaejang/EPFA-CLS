@@ -1,10 +1,13 @@
 # EPFA-CLS : Deriving Controllable Local Optimal Solutions through an Environment Parameter Fixed Algorithm
 This is the official repository for our recent work: [pdf](https://www.mdpi.com/2076-3417/13/12/7110)
 ## Highlights
-![fig1](/fig/fig/boston.png)
-![fig2](/fig/fig/optimalcourse.png)
+<img src="/fig/fig/boston.png"  width="50%" height="50%"/>
+
+<img src="/fig/fig/optimalcourse.png"  width="50%" height="50%"/>
+
 ## Overview
-![fig3](/fig/fig/flowchart.png){: width="30%" height="30%"}
+<img src="/fig/fig/flowchart.png"  width="50%" height="50%"/>
+
 ## Usage
 ### 0. Prepare the dataset
 ### 1. Training
