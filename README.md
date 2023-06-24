@@ -20,7 +20,19 @@ The 3D graph represents the relationship between the control parameters and the 
 
 ## Usage
 ### 0. Prepare the dataset
+The dataset is currently available in `Boston/data` and `OptimalCourse/data` dirs. If you wish to create a custom dataset, you can do so by preparing the independent variables in `labdata_x.csv` and the dependent variables in `labdata_y.csv` and adding them to the same folder.
+
 ### 1. Training
+The currently written code is designed for scenarios where the Boston dataset has 13 input variables, while the OptimalCourse dataset has 4 input variables. If you want to use a custom dataset, you need to modify the number of input variables in either 'Boston/Model.py' or 'OptimalCourse/Model.py', depending on your chosen dataset. Additionally, if you wish to modify the batch size and number of epochs, you can do so by editing the corresponding sections in 'Boston/train.py'.
+
+```
+python ./Boston/train.py
+```
+or
+```
+python ./OptimalCourse/train.py
+```
+
 ### 2. EPFA-CLS
 ### Custom Inputs
 ## Citation
