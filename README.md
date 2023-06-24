@@ -16,7 +16,7 @@ The figure represents the distribution of optimized results obtained by setting 
 ### Optimal course dataset
 <p align="center"><img src="/fig/fig/optimalcourse.png"  width="70%" height="70%"></p>
 
-The 3D graph represents the relationship between the control parameters and the output of the function after fixing the environmental parameters. It starts from the initial value represented by the red dot and eventually reaches the optimized point represented by the blue dot through the optimization process. In this context, the blue dot corresponds to the derived *CLS*.
+The 3D graph represents the relationship between the control parameters and the output of the function after fixing the environment parameters. It starts from the initial value represented by the red dot and eventually reaches the optimized point represented by the blue dot through the optimization process. In this context, the blue dot corresponds to the derived *CLS*.
 
 ## Usage
 ### 0. Prepare the dataset
