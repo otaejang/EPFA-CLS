@@ -40,7 +40,17 @@ This command will execute the code and start the training process.
 If you want to use a custom dataset, you need to modify the number of input variables in either `Boston/Model.py` or `OptimalCourse/Model.py`, depending on your chosen dataset. Additionally, if you wish to modify the batch size and number of epochs, you can do so by editing the corresponding sections in 'Boston/train.py'.
 
 ### 2. EPFA-CLS
+To run the code for deriving the CLS using EPFA-CLS on the Boston and OptimalCourse datasets, you can use the following command:
 
+For Boston dataset:
+```
+python ./Boston/EPFA-CLS.py
+```
+For OptimalCourse dataset:
+```
+python ./OptimalCourse/EPFA-CLS.py
+```
+In the `Boston/EPFA-CLS.py` and `OptimalCourse/EPFA-CLS.py` code files, you will find the part where the initial values are set. If you are using a custom dataset, you can modify the code to match the number of input variables accordingly.
 
 ## Citation
 If you think this implementation is useful for your work, please cite our paper:
