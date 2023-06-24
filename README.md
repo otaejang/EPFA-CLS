@@ -23,7 +23,10 @@ The 3D graph represents the relationship between the control parameters and the 
 The dataset is currently available in `Boston/data` and `OptimalCourse/data` dirs. If you wish to create a custom dataset, you can do so by preparing the independent variables in `labdata_x.csv` and the dependent variables in `labdata_y.csv` and adding them to the same folder.
 
 ### 1. Training
-The currently written code is designed for scenarios where the Boston dataset has 13 input variables, while the OptimalCourse dataset has 4 input variables. If you want to use a custom dataset, you need to modify the number of input variables in either 'Boston/Model.py' or 'OptimalCourse/Model.py', depending on your chosen dataset. Additionally, if you wish to modify the batch size and number of epochs, you can do so by editing the corresponding sections in 'Boston/train.py'.
+The training process is a method to model the objective function, and it follows the same procedure as nonlinear regression based on deep learning.
+
+The currently written code is designed for scenarios where the Boston dataset has 13 input variables, while the OptimalCourse dataset has 4 input variables.
+If you want to use the code as it is, please enter the following command in the terminal:
 
 ```
 python ./Boston/train.py
@@ -32,9 +35,13 @@ or
 ```
 python ./OptimalCourse/train.py
 ```
+This command will execute the code and start the training process.
+
+If you want to use a custom dataset, you need to modify the number of input variables in either `Boston/Model.py` or `OptimalCourse/Model.py`, depending on your chosen dataset. Additionally, if you wish to modify the batch size and number of epochs, you can do so by editing the corresponding sections in 'Boston/train.py'.
 
 ### 2. EPFA-CLS
-### Custom Inputs
+
+
 ## Citation
 If you think this implementation is useful for your work, please cite our paper:
 ```
